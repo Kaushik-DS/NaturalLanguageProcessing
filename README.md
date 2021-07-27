@@ -7,32 +7,32 @@ These days every organization is keen on getting feedback from customers. Later,
 The main objective of this project is to determine whether machine learning models can be used to determine whether the review posted on to Steam Gaming platform website suggest • The game developed by this organization can be recommended or not. • The review posted was for the beta version or the original release version of the game.
 
 # Implemenation:
-Approach to Text Data Modelling.
-......... Import the Dataset
-......... Encoding/Decoding
-......... Converting Binary Text
-......... Removing Smileys/Pictorial Text
-......... Language Conversion
-......... Export the dataset
+1.Approach to Text Data Modelling.
+<br >......... Import the Dataset
+<br >......... Encoding/Decoding
+<br >......... Converting Binary Text
+<br >......... Removing Smileys/Pictorial Text
+<br >......... Language Conversion
+<br >......... Export the dataset
 
-Approach to Text Data Preprocessing
-......... Overview
-......... Import the Modified Dataset
-......... Basic Text Modelling and Cleaning Activities
-......... Feature Selection based on certain Characteristics
-......... Text Preprocessing Steps
-......... Data Splitting [Test/Train]
-......... Implementation [Machine Learning Algorithm]
+2.Approach to Text Data Preprocessing
+<br >......... Overview
+<br >......... Import the Modified Dataset
+<br >......... Basic Text Modelling and Cleaning Activities
+<br >......... Feature Selection based on certain Characteristics
+<br >......... Text Preprocessing Steps
+<br >......... Data Splitting [Test/Train]
+<br >......... Implementation [Machine Learning Algorithm]
 
-Baseline Model using dummy classifier
+3.Baseline Model using dummy classifier
 
-Multinomial Naïve-Bayes model
+4.Multinomial Naïve-Bayes model
 
-Linear SVM [Stochastic Gradient Decent] model
+5.Linear SVM [Stochastic Gradient Decent] model
 
-k-NearestNeighbors model
+6.k-NearestNeighbors model
 
-Performance Evaluation.
+7.Performance Evaluation.
 
 # Conclusion:
 In this project, I successfully downloaded the raw dataset containing review text for Steam gaming platform and performed data cleaning activities, data preprocessing, implementation of machine learning algorithms like Multinomial Naïve-Bayes classifier, Linear Support vector Machine using SGD, K-NearestNeighbors and evaluated the performance using charts and graphs based on classification report, ‘ROC’ curve and ‘AUC’ value against baseline classifier.
